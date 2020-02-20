@@ -1,5 +1,5 @@
 {
     "token": "Njc5Nzk0ODg0MTcyODQxMDMx.Xk2iug.Ila_TNL_I8ThE1oxDtkupI229ek",
     "prefix" : "!",
-    "databaseUri" : "postgres://ruvqdwcosclibr:8855c4890a9656d387a1c83e9bc908847b978051063b846f5a07ea6a0447ea18@ec2-3-231-46-238.compute-1.amazonaws.com:5432/d6d1tnejj2uooj"
+    "databaseUrl" : "postgres://ruvqdwcosclibr:8855c4890a9656d387a1c83e9bc908847b978051063b846f5a07ea6a0447ea18@ec2-3-231-46-238.compute-1.amazonaws.com:5432/d6d1tnejj2uooj"
 }

@@ -7,7 +7,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 //PG database setup
-const { Pool, Client } = require('pg');
+const { Client } = require('pg');
 const dbClient = new Client({
     connectionString: connectionString
 })
@@ -17,7 +17,7 @@ dbClient.query('SELECT NOW()', (err, res) => {
     dbClient.end()
 })
 
-
+//trying out initial bot code
 bot.once('ready', () => {
     console.log(`Logged in as ${bot.user.tag}`);
 });
@@ -29,4 +29,5 @@ bot.on('message', msg => {
     }
 });
 
+//bot connection
 bot.login(process.env.DISCORD_TOKEN || token)
