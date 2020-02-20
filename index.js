@@ -1,6 +1,6 @@
 //local config options
 const {token, prefix, databaseUrl} = require('./config.json');
-const connectionString = process.env.DATABASE_URL || databaseUrl
+const connectionString = process.env.DATABASE_URL
 
 //Discord bot setup
 const Discord = require('discord.js');
@@ -30,4 +30,7 @@ bot.on('message', msg => {
 });
 
 //bot connection
-bot.login(process.env.DISCORD_TOKEN || token)
+bot.login(process.env.DISCORD_TOKEN)
+
+
+//need to build Twitch API helper here
