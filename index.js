@@ -34,7 +34,7 @@ bot.on('message', msg => {
 });
 
 //bot connection
-bot.login(process.env.DISCORD_TOKEN)
+bot.login(process.env.DISCORD_TOKEN || Njc5Nzk0ODg0MTcyODQxMDMx.Xk2iug.Ila_TNL_I8ThE1oxDtkupI229ek)
 
 
 //need to build Twitch API helper here
