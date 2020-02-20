@@ -1,5 +1,5 @@
 //local config options
-const {token, prefix, databaseUrl} = require('./config.json');
+const { prefix } = require('./config.json');
 const connectionString = process.env.DATABASE_URL
 
 //Discord bot setup
