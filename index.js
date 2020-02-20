@@ -26,8 +26,7 @@ bot.on('message', msg => {
     if (msg.content === prefix + 'ping') {
         msg.reply('Pong!');
         console.log('Replied!')
-    }
-    if (msg.content === prefix + 'oeffler') {
+    } else if(msg.content === prefix + 'oeffler') {
         msg.reply('Oeffler is one of our magical founders!');
         console.log('Replied!')
     }
