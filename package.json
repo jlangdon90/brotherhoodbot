@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "discord.js": "^11.5.1",
+    "pg": "^7.18.1",
+    "redis": "^3.0.2"
   },
   "engines": {
-    "node" : "10.x"
+    "node": "10.x"
   }
 }
